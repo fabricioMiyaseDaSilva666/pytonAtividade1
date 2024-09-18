@@ -37,7 +37,27 @@ class Menu:
               '\n24. exercicio17' +
               '\n25. exercicio18' +
               '\n26. exercicio19' +
-              '\n27. exercicio20')
+              '\n27. exercicio20' +
+              '\n28. part2exercicio1' +
+              '\n29. part2exercicio2' +
+              '\n30. part2exercicio3' +
+              '\n31. part2exercicio4' +
+              '\n32. part2exercicio5' +
+              '\n33. part2exercicio6' +
+              '\n34. part2exercicio7' +
+              '\n35. part2exercicio8' +
+              '\n36. part2exercicio9' +
+              '\n37. part2exercicio10' +
+              '\n38. part2exercicio11' +
+              '\n39. part2exercicio12' +
+              '\n40. part2exercicio13' +
+              '\n41. part2exercicio14' +
+              '\n42. part2exercicio15' +
+              '\n43. part2exercicio16' +
+              '\n44. part2exercicio17' +
+              '\n45. part2exercicio18' +
+              '\n46. part2exercicio19' +
+              '\n47. part2exercicio20')
 
     def coletar(self):
         self.num1 = int(input('Informe o primeiro número: '))
@@ -138,3 +158,63 @@ class Menu:
 
             elif self.opcao == 27:
                 print(self.opera.exercicio20())
+
+            elif self.opcao == 28:
+                print(self.opera.part2exercicio1())
+
+            elif self.opcao == 29:
+                print(self.opera.part2exercicio2())
+
+            elif self.opcao == 30:
+                print(self.opera.part2exercicio3())
+
+            elif self.opcao == 31:
+                print(self.opera.part2exercicio4())
+
+            elif self.opcao == 32: # Não está certo
+                print(self.opera.part2exercicio5())
+
+            elif self.opcao == 33:
+                print(self.opera.part2exercicio6())
+
+            elif self.opcao == 34:
+                print(self.opera.part2exercicio7())
+
+            elif self.opcao == 35:
+                print(self.opera.part2exercicio8())
+
+            elif self.opcao == 36:
+                print(self.opera.part2exercicio9())
+
+            elif self.opcao == 37:
+                print(self.opera.part2exercicio10())
+
+            elif self.opcao == 38:
+                print(self.opera.part2exercicio11())
+
+            elif self.opcao == 39:
+                print(self.opera.part2exercicio12())
+
+            elif self.opcao == 40:
+                print(self.opera.part2exercicio13())
+
+            elif self.opcao == 41:
+                print(self.opera.part2exercicio14())
+
+            elif self.opcao == 42:
+                print(self.opera.part2exercicio15())
+
+            elif self.opcao == 43:
+                print(self.opera.part2exercicio16())
+
+            elif self.opcao == 44:
+                print(self.opera.part2exercicio17())
+
+            elif self.opcao == 45:
+                print(self.opera.part2exercicio18())
+
+            elif self.opcao == 46:
+                print(self.opera.part2exercicio19())
+
+            elif self.opcao == 47:
+                print(self.opera.part2exercicio20())
